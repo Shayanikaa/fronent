@@ -1,0 +1,135 @@
+.main {
+    background-color: #f2f2f2;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.body1 {
+    background-color: white;
+    width: 500px;
+    height: 80vh;
+    border-radius: 10px 0 0 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.body2 {
+    border-radius: 0 10px 10px 0;
+}
+
+.body2 img {
+    width: 500px;
+    height: 80vh;
+    border-radius: 0 10px 10px 0;
+}
+
+.body1 h4 {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-weight: 300;
+    color: #808080;
+}
+
+.form-control {
+    background-color: #fafafa;
+    height: 27px;
+}
+
+.form-label {
+    font-size: 13px;
+    margin-bottom: 0;
+    padding-bottom: 2px;
+    color: #949494;
+}
+
+.myclass {
+    padding-bottom: 7px;
+}
+
+.mybtn {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.mybtn button {
+    border-radius: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 13px;
+}
+
+.signin {
+    color: #b9b9b9;
+    font-size: 10px;
+    position: relative;
+    top: 25px;
+    right: -230px;
+}
+
+.hovering :hover {
+    cursor: pointer;
+}
+
+.form-check-input {
+    border-radius: 0;
+}
+
+.form-check-label {
+    font-size: 10px;
+    font-weight: 600;
+    color: #a2a2a2;
+}
+
+.mycheckbox {
+    padding-top: 10px;
+}
+
+.mypass {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.myhorizon {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #cdcdcd;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+.myhorizon span {
+    background: #fff;
+    padding: 0 10px;
+    color: #bebebe;
+    font-size: 13px;
+}
+
+.or{
+    padding-top: 50px;
+}
+
+.auth{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.auth button img{
+    height: 15px;
+    width: 15px;
+}
+
+.auth button{
+    background-color: white;
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    font-size: 10px;
+    height: 30px;
+    color:#a7a7a7;
+    font-weight: 600;
+    width: 145px;
+}

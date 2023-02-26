@@ -1,0 +1,188 @@
+.prod-page{
+    overflow-x: hidden;
+}
+.navbar-prod{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+}
+
+.navbar-brand{
+    padding-top: 10px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    padding-left: 100vh;
+}
+.mybtn1{
+    background-color:black;
+    width: 10px;
+    height: 10px;
+    color: #fff;
+    padding-top: 15px;
+    padding-left: 50vh;
+    border: none;
+   
+}
+.product{
+    background-color:#F5F5F5;
+}
+.mybtn1 a{
+    color: #fff;
+    text-decoration: none;
+}
+.mybtns2{
+    width: 10px;
+    height:10px;
+    padding-top: 15px;
+    background-color: black;
+    border: none;
+}
+
+.mybtns2 a{
+    color: #fff;
+    text-decoration: none;
+}
+.product-heading{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.product-heading h3{
+    font-family:  'Prata', serif;
+    word-spacing: 20px;
+}
+.text-card{
+    display: flex;
+    flex-direction: row;
+}
+.card-subtitle2{
+    padding-left: 120px;
+}
+.descrip{
+    padding-top:10px
+}
+.iconsimg{
+    display: flex;
+    flex-direction: row;
+}
+.iuserimg{
+    padding-left: 125px;
+}
+.iconsimg2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.star{
+    background-color: #fff;
+    border: 1px solid #fff;
+    text-decoration: none;
+    padding-left: 2px;
+    cursor: pointer;
+}
+.cart{
+    padding-left: 130px;
+    cursor: pointer;
+}
+.enrolbtn{
+    background-color: #fff;
+    height: 40px;
+    width: 90px;
+    padding-top: 7px;
+    padding-left: 5px;
+    text-align: center;
+    border: 1px solid black;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 71px;
+    border-radius: 5px;
+}
+
+@media(max-width:700px){
+    .navbar-prod{
+        background-color: black;
+        color: white;
+        height: 40px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .navbar-brand{
+        padding-top: 5px;
+        font-size: 15px;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        justify-content: space-evenly;
+        padding-left: 10vh;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .mybtn1{
+        background-color:black;
+        width: 10px;
+        height: 10px;
+        color: #fff;
+        padding-top: 10px;
+        padding-left: 3vh;
+        border: none;
+       
+    }
+    .mybtns2{
+        width: 10px;
+        height:10px;
+        padding-top: 10px;
+        background-color: black;
+        border: none;
+    }
+    
+    .mybtns2 a{
+        color: #fff;
+        text-decoration: none;
+    }
+    .footer-part1{
+        font-family:'Prata', serif ;
+        font-size: 1vh;
+    }
+    .footer-part1 h3{
+        font-size:1.6vh;
+    }
+    .footer-part2{
+        font-family:'Prata', serif ;
+        font-size: 1vh;
+        padding-left: 3vh;
+    }
+    .footer-part2 h4{
+        font-size:1.3vh
+    }
+    .footer-part3{
+        font-family:'Prata', serif ;
+        font-size: 1vh;
+    }
+    .footer-part3 h4{
+        font-size:1.3vh
+    }
+    .footer-part4{
+        font-family:'Prata', serif ;
+        font-size: 1vh;
+    }
+    .footer-part4 h4{
+        font-size:1.3vh
+    }
+}
